@@ -1,7 +1,32 @@
-@import url(./media.css);
+@import url(media.css);
+@import url(variables.css);
 
 
+body{
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
 
-.button-elie:hover{
-    background-color: black;
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: var(--bs-gray);
+}
+.buttons-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-left: 0;
+    
+}
+.liens-nav a{
+    color: var(--bs-grey);
+    text-align: end;
+}
+.buttons-nav .lienDoe{
+    text-decoration: none;
+    color: var(--bs-black-rgb);
 }

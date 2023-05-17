@@ -1,40 +1,17 @@
 
-@media (max-width:520px) {
-    .button-elie{
-        background-color: hotpink;
-        border-style: none;
-    }
-    
-}
-
 
 @media (max-width:768px) {
-    .button-elie{
-        background-color: red;
-        border-style: none;
-    }
     
 }
 
 @media (min-width:768px) {
-    .button-elie{
-        background-color: yellow;
-        border-style: none;
-    }
     
 }
 
 @media (min-width:992px) {
-    .button-elie{
-        background-color: green;
-        border-style: none;
-    }
     
 }
+
 @media (min-width:1200px) {
-    .button-elie{
-        background-color: black;
-        border-style: none;
-    }
     
 }
