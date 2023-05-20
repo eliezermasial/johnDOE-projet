@@ -1,5 +1,6 @@
 
 
+
 @media (max-width:768px) {
     .navbar-nav{
         display: none;
@@ -22,6 +23,20 @@
     .container-nav .buttons-left span,a{
         padding: 0;
     }
+    .block-art{
+        margin-bottom: 20px;
+    }
+    .block-art .button-me{
+        margin-top: 5%;
+    }
+    .block-art .button-me .btn{
+        width: 100%;
+    }
+    .block-art .article-john span{
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 50px;
+    }
 }
 
 @media (min-width:768px) {
@@ -43,6 +58,26 @@
     .button-integre{
         display: block;
     }
+    .block-art .article-john {
+        position: relative;
+        top: 10%;
+    }
+    .block-art .button-me{
+        position: relative;
+        top: 15%;
+        display: flex;
+        justify-content: center;
+    }
+    .block-art .article-john h1{
+        margin-bottom: 50px;
+    }
+    .block-art .article-john span{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .block-art .button-me .btn{
+        width: 100%;
+    }
 }
 
 @media (min-width:992px) {
@@ -61,6 +96,27 @@
     .container-nav{
         margin-left: 25px;
     }
+    .block-art .article-john {
+        position: relative;
+        top: 20%;
+        
+    }
+    .block-art .button-me{
+        position: relative;
+        top: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    .block-art .article-john h1{
+        margin-bottom: 50px;
+    }
+    .block-art .article-john span{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .block-art .button-me .btn{
+        width: 100%;
+    }
 }
 
 @media (min-width:1200px) {
@@ -69,5 +125,25 @@
     }
     .container-nav{
         margin-left: 25px;
+    }
+    .block-art .article-john {
+        position: relative;
+        top: 20%;
+    }
+    .block-art .button-me{
+        position: relative;
+        top: 35%;
+        display: flex;
+        justify-content: center;
+    }
+    .block-art .article-john h1{
+        margin-bottom: 50px;
+    }
+    .block-art .article-john span{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .block-art .button-me .btn{
+        width: 100%;
     }
 }
