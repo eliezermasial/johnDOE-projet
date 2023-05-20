@@ -1,5 +1,8 @@
 :root{
-    --bs-gray: #f6f7f8;
-    --bs-grey: rgba(0,0,0,.55);
-    --bs-black-rbg: rgba(0,0,0,.9);
+   --bgnav-grey: #f8f9fa;
+   --bs-black: rgba(0,0,0,.9);
+   --bslink-pal: rgba(0,0,0,.55);
+   --black-min: rgba(0,0,0,.1);
+   --offcanvas-gainsboro: #fcfcfc70;
+   
 }

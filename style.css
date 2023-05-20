@@ -9,24 +9,68 @@ body{
 }
 
 nav{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: var(--bs-gray);
-}
-.buttons-nav{
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    margin-left: 0;
+    position: fixed;
     
+    background-color: var(--bgnav-grey);
 }
-.liens-nav a{
-    color: var(--bs-grey);
-    text-align: end;
+.container-nav{
+    max-width: 100%;
 }
-.buttons-nav .lienDoe{
+.nav-brand{
+    color: var(--bs-black);
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
     text-decoration: none;
-    color: var(--bs-black-rgb);
+    white-space: nowrap;
+}
+.fw-bold{
+    font-weight: 700 !important;
+}
+span a:hover{
+    color: var(--bs-black);
+}
+ .navbar-nav .nav-link {
+    color: var(--bslink-pal);
+}
+.btnOffcanvas{
+    
+    border-color: var(--black-min);
+}
+
+.btnOffcanvas:focus{
+    border: 1px solid var(--bslink-pal);
+    box-shadow: none;
+}
+
+.btnOffcanvas svg{
+    fill: var(--bslink-pal);
+}
+.btn-close:focus{
+    box-shadow: none;
+}
+.offcanvas{
+    background-color:  var(--offcanvas-gainsboro);
+    height: 200px;
+    margin-top: 9%;
+    margin-left: 3px;
+    margin-right: 3px;
+    overflow-y: hidden;
+}
+.offcanvas-body ul{
+    padding-left: 0;
+}
+.offcanvas-body li{
+    list-style: none;
+
+}
+.offcanvas-body li a{
+    text-decoration: none;
+    color: var(--bs-black);
+}
+hr{
+    width: 10%;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
