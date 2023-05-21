@@ -4,5 +4,8 @@
    --bslink-pal: rgba(0,0,0,.55);
    --black-min: rgba(0,0,0,.1);
    --offcanvas-gainsboro: #fcfcfcef;
+   --bs-blanc: #fff;
+   --bs-col: #212529;
+   --bgnav-greykl: #868686;
    
 }

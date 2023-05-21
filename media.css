@@ -24,18 +24,24 @@
         padding: 0;
     }
     .block-art{
-        margin-bottom: 20px;
+        margin-top: 1%;
+        margin-bottom: 24px;
     }
     .block-art .button-me{
-        margin-top: 5%;
-    }
-    .block-art .button-me .btn{
-        width: 100%;
+        margin-top: 12%;
     }
     .block-art .article-john span{
-        font-size: 20px;
+        font-family: inherit;
+        font-size: 22px;
         font-weight: 400;
         margin-top: 50px;
+    }
+    .imageCode{
+        padding-bottom: 20px !important;
+    }
+    .imageCode img{
+        position: relative;
+        top: 10px;
     }
 }
 
@@ -60,24 +66,25 @@
     }
     .block-art .article-john {
         position: relative;
-        top: 10%;
+        top: 15%;
     }
     .block-art .button-me{
         position: relative;
-        top: 15%;
+        top: 20%;
         display: flex;
-        justify-content: center;
-    }
-    .block-art .article-john h1{
-        margin-bottom: 50px;
+        justify-content: start;
     }
     .block-art .article-john span{
-        font-size: 30px;
-        margin-top: 50px;
+        font-size: 22px;
     }
-    .block-art .button-me .btn{
-        width: 100%;
+    .imageCode{
+        padding: 0;
     }
+    .imageCode img{
+        position: relative;
+        top: 120px;
+    }
+
 }
 
 @media (min-width:992px) {
@@ -98,25 +105,27 @@
     }
     .block-art .article-john {
         position: relative;
-        top: 20%;
+        top: 25%;
         
     }
     .block-art .button-me{
         position: relative;
-        top: 35%;
+        top: 30%;
         display: flex;
-        justify-content: center;
-    }
-    .block-art .article-john h1{
-        margin-bottom: 50px;
+        justify-content: start;
     }
     .block-art .article-john span{
         font-size: 30px;
-        margin-top: 50px;
     }
-    .block-art .button-me .btn{
-        width: 100%;
+    .imageCode{
+        padding: 0;
     }
+    .imageCode img{
+        position: relative;
+        top: 120px;
+    }
+  
+
 }
 
 @media (min-width:1200px) {
@@ -128,22 +137,24 @@
     }
     .block-art .article-john {
         position: relative;
-        top: 20%;
+        top: 25%;
     }
     .block-art .button-me{
         position: relative;
-        top: 35%;
+        top: 30%;
         display: flex;
-        justify-content: center;
-    }
-    .block-art .article-john h1{
-        margin-bottom: 50px;
+        justify-content: start;
     }
     .block-art .article-john span{
         font-size: 30px;
-        margin-top: 50px;
     }
-    .block-art .button-me .btn{
-        width: 100%;
+    .imageCode{
+        padding: 0;
     }
+    .imageCode img{
+        position: relative;
+        top: 120px;
+    }
+    
+    
 }
