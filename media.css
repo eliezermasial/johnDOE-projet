@@ -43,6 +43,9 @@
         position: relative;
         top: 10px;
     }
+    .iconFramework{
+        padding-right: 20px!important;
+    }
 }
 
 @media (min-width:768px) {
@@ -84,6 +87,13 @@
         position: relative;
         top: 120px;
     }
+    .imageDesign{
+        padding: 0;
+    }
+    .imageDesign img{
+        position: relative;
+        top: 90px;
+    }
 
 }
 
@@ -124,6 +134,13 @@
         position: relative;
         top: 120px;
     }
+    .imageDesign{
+        padding: 0;
+    }
+    .imageDesign img{
+        position: relative;
+        top: 90px;
+    }
   
 
 }
@@ -154,6 +171,13 @@
     .imageCode img{
         position: relative;
         top: 120px;
+    }
+    .imageDesign{
+        padding: 0;
+    }
+    .imageDesign img{
+        position: relative;
+        top: 90px;
     }
     
     

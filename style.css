@@ -5,6 +5,7 @@
 body{
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
     box-sizing: border-box;
     text-transform: capitalize;
     color: var(--bs-col);
@@ -99,7 +100,7 @@ hr{
 }
 .block-art .article-john span{
     margin-bottom: 10px;
-    color: rgba(53, 52, 52, 0.87);
+    color: var(--color-grey);
 }
 .block-art .button-me .btn{
     font-family: initial;
@@ -114,7 +115,7 @@ hr{
 .section-expertise{
     margin: 1%;
     margin-bottom: 5%;
-    background-color: var(--bgnav-grey);
+    background-color: var(--bgsect-grey);
 }
 .bar-progress{
     background-color: var(--bs-blanc)!important;
@@ -124,4 +125,20 @@ hr{
     top: 8px;
     height: 15px;
     background-color: var(--bgnav-greykl);
+}
+.h3Expe{
+    color: var(--color-grey);
+}
+.section-expertise svg{
+    fill: var(--bg-svg);
+    stroke: var(--bg-svg);
+}
+.Colsvg svg{
+    fill: var(--bg-svg);
+}
+.figma svg{
+    fill: var(--bg-pembe);
+}
+.iconFramework{
+    background-color: var(--bs-blanc)!important;
 }
