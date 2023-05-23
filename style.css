@@ -89,6 +89,8 @@ hr{
 /* section portfolio */
 .section-portfolio{
     margin: 1%;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 5%;
 }
 .section-portfolio .container{
@@ -114,6 +116,8 @@ hr{
 /* la section expertise */
 .section-expertise{
     margin: 1%;
+    margin-left: 0;
+    margin-right: 0;
     margin-bottom: 5%;
     background-color: var(--bgsect-grey);
 }
@@ -126,7 +130,7 @@ hr{
     height: 15px;
     background-color: var(--bgnav-greykl);
 }
-.h3Expe{
+.h3Expe,.h3projet{
     color: var(--color-grey);
 }
 .section-expertise svg{
@@ -141,4 +145,14 @@ hr{
 }
 .iconFramework{
     background-color: var(--bs-blanc)!important;
+}
+/* section mes projets de ce site*/
+.section-MesProjets{
+    margin: 1%;
+}
+.carte-projets{
+    border: 1px solid var(var(--bgsect-grey));
+}
+.cart-body{
+    margin: 20px;
 }
