@@ -13,12 +13,15 @@
     }
     .container-nav .buttons-left{
         display: flex;
+        
     }
     .button-return,.button-john{
         display: none;
     }
     .button-integre{
         display: block;
+        margin-left: 0 !important;
+        
     }
     .container-nav .buttons-left span,a{
         padding: 0;
@@ -36,15 +39,28 @@
         font-weight: 400;
         margin-top: 50px;
     }
+    .imageJohn{
+        padding-right: 10px !important;
+    }
     .imageCode{
-        padding-bottom: 20px !important;
+        padding-bottom: 0px !important;
     }
     .imageCode img{
         position: relative;
         top: 10px;
     }
+    .imageDesign{
+        display: none;
+    }
     .iconFramework{
         padding-right: 20px!important;
+    }
+    
+    .colofrigma{
+        padding-right: 10px !important;
+    }
+    .Designmobi{
+        display: block !important;
     }
 }
 
@@ -94,7 +110,9 @@
         position: relative;
         top: 90px;
     }
-
+    .Designmobil{
+        display: none;
+    }
 }
 
 @media (min-width:992px) {
@@ -141,8 +159,10 @@
         position: relative;
         top: 90px;
     }
+    .Designmobil{
+        display: none;
+    }
   
-
 }
 
 @media (min-width:1200px) {
@@ -179,6 +199,8 @@
         position: relative;
         top: 90px;
     }
-    
+    .Designmobil{
+        display: none;
+    }
     
 }
