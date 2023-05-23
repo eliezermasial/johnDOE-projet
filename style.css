@@ -103,13 +103,13 @@ hr{
     color: var(--color-grey);
 }
 .block-art .button-me .btn{
-    font-family: initial;
     width: 160px;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: left;
     padding: 10px;
     padding-top: 7px;
     padding-bottom: 7px;
+    box-shadow: none;
 }
 /* la section expertise */
 .section-expertise{
