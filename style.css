@@ -34,6 +34,15 @@ nav{
     text-decoration: none;
     white-space: nowrap;
 }
+.button-return{
+    box-shadow: none !important;
+}
+.button-john:focus{
+    box-shadow: none !important;
+}
+.button-integr{
+    box-shadow: none !important;
+}
 .fw-bold{
     font-weight: 700 !important;
 }
@@ -160,5 +169,8 @@ hr{
     margin: 20px;
 }
 .offcanvas{
-    background-color: rgba(29, 97, 97, 0.966);
+    background-color: var(--bg-offcanvas);
+}
+.btnSavoir-plus:focus{
+    box-shadow: none !important;
 }
