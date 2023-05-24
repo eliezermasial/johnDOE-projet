@@ -62,6 +62,27 @@
     .Designmobi{
         display: block !important;
     }
+    .carte-projets{
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    .block-ligne{
+        padding-left: 8px !important;
+        padding-right: 8px !important;
+    }
+    .card{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .carousel-item{
+        height: 100% !important;
+    }
+    .carousel-item img{
+        max-width: 100% !important;
+        height: 100% !important;
+        
+    }
 }
 
 @media (min-width:768px) {
@@ -113,6 +134,15 @@
     .Designmobil{
         display: none;
     }
+    .carousel-item{
+        
+        height: 100% !important;
+    }
+    .carousel-item img{
+        max-width: 100% !important;
+        height: 100% !important;
+        
+    }
 }
 
 @media (min-width:992px) {
@@ -162,6 +192,14 @@
     .Designmobil{
         display: none;
     }
+    .carousel-item{
+        height: 100% !important;
+    }
+    .carousel-item img{
+        max-width: 100% !important;
+        height: 100% !important;
+        
+    }
   
 }
 
@@ -202,6 +240,14 @@
     }
     .Designmobil{
         display: none;
+    }
+    .carousel-item{
+        height: 100% !important;
+    }
+    .carousel-item img{
+        max-width: 100% !important;
+        height: 100% !important;
+        
     }
     
 }

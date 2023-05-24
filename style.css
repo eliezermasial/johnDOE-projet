@@ -151,8 +151,14 @@ hr{
     margin: 1%;
 }
 .carte-projets{
-    border: 1px solid var(var(--bgsect-grey));
+    margin-right: px;
+    /*
+    border: 1px solid var(--bgsect-grey);
+    */
 }
 .cart-body{
     margin: 20px;
+}
+.offcanvas{
+    background-color: rgba(29, 97, 97, 0.966);
 }
