@@ -2,56 +2,69 @@
 
 
 @media (max-width:768px) {
+
     .navbar-nav{
         display: none;
     }
+
     .btnOffcanvas{
         display: block;
     }
+
     .container-nav{
         margin-left: 0px;
     }
+
     .container-nav .buttons-left{
         display: flex;
-        
     }
+
     .button-return,.button-john{
         display: none;
     }
+
     .button-integre{
         display: block;
         margin-left: 0 !important;
-        
     }
+
     .container-nav .buttons-left span,a{
         padding: 0;
     }
+
     .block-art{
         margin-top: 1%;
         margin-bottom: 24px;
     }
+
     .block-art .button-me{
         margin-top: 12%;
     }
+
     .block-art .article-john span{
         font-family: inherit;
         font-size: 22px;
         font-weight: 400;
         margin-top: 50px;
     }
+
     .imageJohn{
         padding-right: 10px !important;
     }
+
     .imageCode{
         padding-bottom: 0px !important;
     }
+
     .imageCode img{
         position: relative;
         top: 10px;
     }
+
     .imageDesign{
         display: none;
     }
+    
     .iconFramework{
         padding-right: 20px!important;
     }
@@ -81,7 +94,14 @@
     .carousel-item img{
         max-width: 100% !important;
         height: auto !important;
-        
+    }
+    .section-contact .block-image{
+        background-color: yellow !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .section-contact .block-image img{
+        max-width: 100% !important;
     }
 }
 
@@ -114,140 +134,196 @@
         display: flex;
         justify-content: start;
     }
+
     .block-art .article-john span{
         font-size: 22px;
     }
+
     .imageCode{
         padding: 0;
     }
+    
     .imageCode img{
         position: relative;
         top: 120px;
     }
+
     .imageDesign{
         padding: 0;
     }
+
     .imageDesign img{
         position: relative;
         top: 90px;
     }
+
     .Designmobil{
         display: none;
     }
+
     .carousel-item{
-        
         height: 100% !important;
     }
+
     .carousel-item img{
         max-width: 100% !important;
         height: auto !important;
-        
+    }
+
+    .section-contact .block-image{
+        margin-left: 10px !important;
+        padding: 0 !important;
+    }
+
+    .section-contact .block-image img{
+        min-width: 100%;
     }
 }
 
 @media (min-width:992px) {
+
     .btnOffcanvas{
         display: none;
     }
+
     .button-integre,.dropdown{
         display: none;
     }
+
     .navbar-nav{
         display: flex;
     }
+
     .button-return,.button-john{
         display: block;
     }
+
     .container-nav{
         margin-left: 25px;
     }
+
     .block-art .article-john {
         position: relative;
         top: 25%;
-        
     }
+
     .block-art .button-me{
         position: relative;
         top: 30%;
         display: flex;
         justify-content: start;
     }
+
     .block-art .article-john span{
         font-size: 30px;
     }
+
     .imageCode{
         padding: 0;
     }
+
     .imageCode img{
         position: relative;
         top: 120px;
     }
+
     .imageDesign{
         padding: 0;
     }
+
     .imageDesign img{
         position: relative;
         top: 90px;
     }
+
     .Designmobil{
         display: none;
     }
+
     .carousel-item{
         height: 100% !important;
     }
+
     .carousel-item img{
         max-width: 100% !important;
         height: 100% !important;
-        
+    }
+
+    .section-contact .block-image{
+        margin-left: 10px !important;
+        padding: 0 !important;
+    }
+
+    .section-contact .block-image img{
+        min-width: 100%;
     }
   
 }
 
 @media (min-width:1200px) {
+
     .btnOffcanvas{
         display: none;
     }
+
     .container-nav{
         margin-left: 25px;
     }
+
     .block-art .article-john {
         position: relative;
         top: 25%;
     }
+
     .block-art .button-me{
         position: relative;
         top: 30%;
         display: flex;
         justify-content: start;
     }
+
     .block-art .article-john span{
         font-size: 30px;
     }
+
     .imageCode{
         padding: 0;
     }
+
     .imageCode img{
         position: relative;
         top: 120px;
     }
+
     .imageDesign{
-    
         padding: 0;
     }
+
     .imageDesign img{
         position: relative;
         top: 90px;
     }
+
     .Designmobil{
         display: none;
     }
+
     .carousel-item{
         height: 100% !important;
     }
+
     .carousel-item img{
         max-width: 100% !important;
         height: auto !important;
-        
+    }
+
+    .section-contact .block-image{
+        margin-left: 10px !important;
+        padding: 0 !important;
+    }
+
+    .section-contact .block-image img{
+        min-width: 100%;
     }
     
 }

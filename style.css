@@ -174,3 +174,56 @@ hr{
 .btnSavoir-plus:focus{
     box-shadow: none !important;
 }
+/* section contact*/
+.section-contact{
+    background-color: var(--bgsect-grey);
+}
+
+.section-contact .block-input{
+    margin-right: 10px !important;
+}
+.section-contact .block-input input:focus{
+    border: 1px solid var(--bslink-pal);
+    box-shadow: none;
+}
+.section-contact .block-input textarea:focus{
+    border: 1px solid var(--bslink-pal);
+    box-shadow: none;
+}
+.section-contact .block-input button:focus{
+    box-shadow: none;
+}
+/* footer */
+.button-footer{
+    margin-left: 0 !important;
+}
+.colon1-footer{
+    padding-left: 0 !important;
+    margin-left: 8px;
+}
+footer svg{
+    width: 50px !important;
+    height: 30px !important;
+    margin-top: 0 !important;
+}
+footer .nav-brand{
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+}
+footer .colon-nav{
+    padding-right: 0 !important;
+    margin-right: 8px !important;
+}
+footer .footer-list{
+    display: flex;
+    justify-content: end;
+    padding: 0 !important;
+}
+footer .nav-brand .nav-item {
+    padding-top: 0 !important;
+}
+footer .nav-brand .nav-item a{
+    padding-top: 0 !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
