@@ -214,16 +214,3 @@ footer .colon-nav{
     padding-right: 0 !important;
     margin-right: 8px !important;
 }
-footer .footer-list{
-    display: flex;
-    justify-content: end;
-    padding: 0 !important;
-}
-footer .nav-brand .nav-item {
-    padding-top: 0 !important;
-}
-footer .nav-brand .nav-item a{
-    padding-top: 0 !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-}
